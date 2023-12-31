@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- Internal CSS -->
+    <style> 
+        /* Estilo para parágrafos */
+        p {
+            color: gold;
+            font-size: 40px;
+        }
+
+        /* Estilo para h1 azul */
+        h1 {
+            color: blue;
+        }
+
+        /* Estilo para h1 vermelho usando classe */
+        h1.red {
+            color: red;
+        }
+
+        /* Estilo para h1 com cor azulvioleta, tamanho da fonte e borda */
+        h1.blueviolet {
+            color: blueviolet;
+            font-size: 40px;
+            border-bottom: 1px solid red;
+        }
+
+        /* Estilo para h3 verde */
+        h3 {
+            color: green;
+        }
+
+        /* Estilo para p vermelho usando classe */
+        p.red {
+            color: red;
+        }
+
+        /* Estilo para parágrafos com classe 'paragrafo' */
+        .paragrafo {
+            font-style: italic;
+        }
+
+        /* Estilo para h2 com id 'algum-titulo' e classe 'titulo' */
+        #algum-titulo {
+            color: purple;
+        }
+
+        /* Estilo para parágrafos com classe 'color-name' */
+        .color-name {
+            color: crimson;
+        }
+
+        /* Estilo para parágrafo com classe 'hex' */
+        .hex {
+            color: #FF5733; /* Hexadecimal */
+        }
+
+        /* Estilo para parágrafo com classe 'hex-2' */
+        .hex-2 {
+            color: #8A2BE2; /* Hexadecimal */
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Títulos -->
+    <h1>Mudar cor com Inline</h1>
+    <h1 class="red">Titulo</h1>
+    <br>
+    <h1 class="blueviolet">Mudar cor e Tamanho da Fonte</h1>
+
+    <!-- Parágrafos -->
+    <p>Eu fui estilizado pelo internal</p>
+    <p>Mais um</p>
+    <p>Mais outro</p>
+
+    <!-- H3 -->
+    <h3>Meu titulo Verde</h3>
+
+    <!-- Parágrafo com classe red -->
+    <p class="red">Ordem do CSS</p>
+
+    <!-- Lista -->
+    <ul>
+        <li>Maçã</li>
+        <li>Morango</li>
+        <li>Uva</li>
+    </ul>
+
+    <!-- Parágrafos com classe 'paragrafo' -->
+    <p class="paragrafo">Algum texto 1</p>
+    <p class="paragrafo">Algum texto 2</p>
+    <p class="paragrafo">Algum texto 3</p>
+    <br>
+
+    <!-- H2 com id e classe -->
+    <h2 id="algum-titulo" class="titulo">algum texto 1</h2>
+    <h2 class="titulo">algum texto 2</h2>
+    <h2 id="algum-titulo" class="titulo">algum texto 3</h2>
+
+    <!-- Parágrafo com classe 'color-name' -->
+    <p class="color-name">qualquer texto pra cor</p>
+    <br>
+
+    <!-- Parágrafos com classe 'hex' e 'hex-2' -->
+    <p class="hex">parágrafo hex</p>
+    <p class="hex-2">parágrafo hex 2</p>
+    <p class="hex-2">parágrafo hex 2</p>
+
+    <!--RGB-->
+    <p class="rgb">esse foi estilizado com RGB</p>
+    <p class="mixed-rgb">esse foi estilizado com RGB</p>
+    <!--RGB A-->
+    <p class="rgba">esse foi estilizado com RGBa</p>
+    <!--HSL-->
+    <p class="hsl">esse foi estilizado com HSL</p>
+    <p class="hsl-2">esse foi estilizado com HSL</p>
+    <p>hsl é confuso</p>
+
+    <!--background color-->
+<p class="bg">Mude o background</p>
+<h2 class="bg-2">outra variação</h2>
+
+
+    <!--Opacidade no bg-->
+
+    <p class="bg-opacity">Mude o background</p>
+    <p class="bg-opacity-2">Mude o background</p>
+
+<p>estou aqui!</p>
+<P>Estou aqui 2 </P>
+<!---Opacidade no RGBa-->
+<div class="rgba-opacity">
+    <p>Esse titulo precisa estar visivel</p>
+  </div>
+  <!--Background BG-->
+  
+<h1 class="bg-image">texto com imagem</h1>
+   
+  
+<!--Altuta e largura-->
+<div class="heigh-width">
+
+</div>
+ 
+<div class="heigh-width-2">
+    
+</div>
+
+<!--Padding-->
+<div class="not-padding">esse não tem padding</div>
+<div class="padding">esse tem padding</div>
+
+<!--Padding Individual-->
+<p class="padding-individual">esse tem padding diferentes</p>
+
+<div class="short-padding">Algum Texto</div>
+<div class="short-padding-2">Algum Texto 2</div>
+
+<div class="border-box1">
+    <p>algum com a border box conteudo</p>
+</div>
+
+<div class="border-box2">
+    <p>algum conteudo 2</p>
+</div>
+
+<!--Border-->
+<div class="border">Borda</div>
+<div class="border-2">Borda 2</div>
+
+<!--Border individual-->
+<p class="border-left">Border na esquerda</p>
+<p class="border-bottom">Border Inferior</p>
+
+<!--Border Rounded-->
+<div class="rounded-p">Eu estou arrendodado</div>
+<div class="rounded-p2">Eu estou arrendodado</div>
+
+<!--Margem-->
+<div class="margin-top">Eu tenho margem no topo</div>
+<div class="margin">Eu tenho margem</div>
+<div class="margin-shorthand">Utilizando Shorthand</div>
+
+<!--Box Model-->
+<div class="box-model"></div>
+<p>Tenho toda as propiedades do box Model</p>
+
+<!--Text Allignment-->
+<p class="text-alligned">Alinhando a Direita</p>
+
+<div class="container-center"></div>
+<h2>Estamos Centralizados</h2>
+<p>Algum Texto</p>
+
+<!--Text Decoration-->
+<p class="underline">Tenho uma underline</p>
+<p class="line-through">eu tenho um risco</p>
+<a href="#" class="remove-underline">Sem underline</a>
+
+<!--Text Transform-->
+
+<p class="uppercase">Esse texto é caixa alta</p>
+<p class="lowercase">ESTE É EM LOWER</p>
+
+<!--Text Spacing-->
+<h2 class="font-spacing">esse é um texto com espaçamento</h2>
+
+
+<!--Fontes-->
+<p class="serif">Fonte Serif</p>
+<p class="sans-serif">Sans Sans Serif</p>
+<p class="Fantasy">Fonte Fantasy</p>
+<p class="monospace">Fonte Monospace</p>
+<p class="cursive">Fonte Cursive</p>
+
+<!--Font Weight-->
+<p class="thin">Eu sou mais Fino</p>
+<p class="bold">Estou em Bold</p>
+
+<p class="border">Eu sou a maior Fonte!</p>
+
+<!--Font Size-->
+<h4 class="small">Titulo pequeno</h4>
+<h4 class="big">Titulo Grande</h4>
+
+<!--Display-->
+<div class="inline-box">a</div>
+<div class="inline-box">b</div>
+<div class="inline-box">c</div>
+<span class="block">Teste</span>
+<span class="block">Teste 2</span>
+
+<!--Escondendo Elementos-->
+<p class="invisible">Me Encontre, se puder</p>
+
+<!--Static-->
+<div class="static"></div>
+<span>Eu sou estatico</span>
+
+<!--Relative-->
+<div class="relative"></div>
+<span>Eu sou relativo</span>
+<p>Eu sou um paragrafo</p>
+
+<!--Absolute-->
+<div class="absolute"></div>
+<span>Eu sou Absoluto</span>
+<div>
+<p>Eu sou um Paragrafo</p>
+
+<!--Relative Container-->
+<div class="relative-container1"></div>
+<div class="absolute1"></div>
+<div class="absolute2"></div>
+
+<!--Fixed-->
+<div class="fixed"></div>
+<span>eu sou fixo</span>
+
+<!--Sticky-->
+<div class="sticky"></div>
+<span>Eu sou sticky</span>
+
+<!--Z-Index-->
+<div class="relative-container"></div>
+<div class="absolute-3"></div>
+<div class="absolute-4"></div>
+<div class="absolute-5"></div>
